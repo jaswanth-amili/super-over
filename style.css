@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+*{
+    font-family: 'Recursive', sans-serif;
+}
+
+body{
+    background-color: #9013fe;
+    /* color: beige; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container> .row {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid ;
+}
+
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#strike-button{
+    width: 300px;
+    border-radius: 30%;
+    border: none;
+    font-size: large;
+    color: white;
+    background: linear-gradient(135deg,#c02425,#f0cb35);
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+
+#strike-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+
+.score{
+    margin: -80px 0 0;
+    font-size: xx-large;
+}
+
+.score>span{
+    margin: 0 5px;
+}
